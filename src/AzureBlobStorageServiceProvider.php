@@ -1,6 +1,6 @@
 <?php
 
-namespace SteffjeNL\LaravelAzureBlobStorage;
+namespace Casuparu\LaravelAzureBlobStorage;
 
 use Storage;
 use League\Flysystem\Filesystem;
@@ -10,14 +10,14 @@ use function sprintf;
 use function strpos;
 
 /**
- * Class AzureBlobStorageServiceProvider
+ * Class AzureBlobStorageExtendedAdapter
  *
- * Service provider for Azure Blob Storage
- *
+ * Service provider for Azure blob storage
+ * 
  * @package   laravel-azure-blob-storage
- * @author    Stephan Eizinga <stephan@monkeysoft.nl>
- * @copyright 2018 Stephan Eizinga
- * @link      https://github.com/steffjenl/laravel-azure-blob-storage
+ * @author    Caspar Mølholt Kjellberg <mail@caspark.com>
+ * @copyright 2019 Caspar Mølholt Kjellberg
+ * @link      https://github.com/casuparu/laravel-azure-blob-storage
  */
 class AzureBlobStorageServiceProvider extends ServiceProvider
 {

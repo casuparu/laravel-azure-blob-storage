@@ -1,6 +1,6 @@
 <?php
 
-namespace SteffjeNL\LaravelAzureBlobStorage;
+namespace Casuparu\LaravelAzureBlobStorage;
 
 use League\Flysystem\AzureBlobStorage\AzureBlobStorageAdapter;
 use MicrosoftAzure\Storage\Blob\BlobRestProxy;
@@ -12,9 +12,9 @@ use function sprintf;
  * Class AzureBlobStorageExtendedAdapter
  *
  * @package   laravel-azure-blob-storage
- * @author    Stephan Eizinga <stephan@monkeysoft.nl>
- * @copyright 2018 Stephan Eizinga
- * @link      https://github.com/steffjenl/laravel-azure-blob-storage
+ * @author    Caspar Mølholt Kjellberg <mail@caspark.com>
+ * @copyright 2019 Caspar Mølholt Kjellberg
+ * @link      https://github.com/casuparu/laravel-azure-blob-storage
  */
 class AzureBlobStorageExtendedAdapter extends AzureBlobStorageAdapter
 {
@@ -104,6 +104,9 @@ class AzureBlobStorageExtendedAdapter extends AzureBlobStorageAdapter
             , $sasKey);
     }
 
+    /**
+     * Return the Blob storage client
+     */
     public function getClient() 
     {
         return $this->client;

@@ -1,5 +1,5 @@
 {
-  "name": "steffjenl/laravel-azure-blob-storage",
+  "name": "casuparu/laravel-azure-blob-storage",
   "description": "Microsoft Azure Blob Storage integration for Laravel's Storage API",
   "type": "library",
   "keywords": [
@@ -21,8 +21,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Stèphan Eizinga",
-      "email": "stephan@monkeysoft.nl"
+      "name": "Caspar Mølholt Kjellberg",
+      "email": "mail@caspark.com"
     }
   ],
   "autoload": {
@@ -38,7 +38,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "SteffjeNL\\LaravelAzureBlobStorage\\AzureBlobStorageServiceProvider"
+        "Casuparu\\LaravelAzureBlobStorage\\AzureBlobStorageServiceProvider"
       ]
     }
   }

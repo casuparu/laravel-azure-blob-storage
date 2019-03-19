@@ -1,5 +1,4 @@
 # laravel-azure-blob-storage
-[![Build Status](https://travis-ci.org/steffjenl/laravel-azure-blob-storage.svg?branch=master)](https://travis-ci.org/steffjenl/laravel-azure-blob-storage)
 
 Microsoft Azure Blob Storage integration for Laravel's Storage API
 
@@ -10,13 +9,13 @@ This package uses the new azure storage blob package and extends the AzureBlobSt
 Install the package using composer:
 
 ```bash
-composer require steffjenl/laravel-azure-blob-storage
+composer require casuparu/laravel-azure-blob-storage
 ```
 
 On Laravel versions before 5.5 you also need to add the service provider to `config/app.php` manually:
 
 ```php
-    SteffjeNL\LaravelAzureBlobStorage\AzureBlobStorageServiceProvider::class,
+    Casuparu\LaravelAzureBlobStorage\AzureBlobStorageServiceProvider::class,
 ```
 
 Then add this to the `disks` section of `config/filesystems.php`:
