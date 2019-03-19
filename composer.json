@@ -27,7 +27,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "SteffjeNL\\LaravelAzureBlobStorage\\": "src/"
+      "Casuparu\\LaravelAzureBlobStorage\\": "src/"
     }
   },
   "autoload-dev": {
