@@ -1,6 +1,6 @@
 {
   "name": "casuparu/laravel-azure-blob-storage",
-  "description": "Microsoft Azure Blob Storage integration for Laravel's Storage API",
+  "description": "Microsoft Azure Blob Storage integration for Laravel's Storage API.",
   "type": "library",
   "keywords": [
     "storage",
